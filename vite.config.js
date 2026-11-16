@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/favorit-parts-test/',
   plugins: [react()],
   test: {
     environment: 'node',
